@@ -21,10 +21,10 @@ A simple HTTP load balancer implementation in Go that distributes incoming reque
 
 ```bash
 # Build the load balancer
-go build -o lb lb.go
+go build -o lb.exe lb.go
 
 # Build the backend server
-go build -o be be.go
+go build -o be.exe be.go
 ```
 
 ## Usage
